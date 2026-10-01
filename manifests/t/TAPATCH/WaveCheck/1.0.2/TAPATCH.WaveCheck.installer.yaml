@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: TAPATCH.WaveCheck
+PackageVersion: 1.0.2
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+ProductCode: WaveCheck
+ReleaseDate: '2026-09-30'
+AppsAndFeaturesEntries:
+- DisplayName: WaveCheck
+  Publisher: TAPATCH
+  ProductCode: WaveCheck
+InstallationMetadata:
+  DefaultInstallLocation: '%ProgramFiles%\TAPATCH\WaveCheck'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://tapatch.com/downloads/WaveCheck-Setup-1.0.2.exe
+  InstallerSha256: 2743474B0D380CBABCB0CAB6E8FB49E2A488B17CB8F5FB4BA8884672680FD0B7
+  ElevationRequirement: elevatesSelf
+ManifestType: installer
+ManifestVersion: 1.12.0
