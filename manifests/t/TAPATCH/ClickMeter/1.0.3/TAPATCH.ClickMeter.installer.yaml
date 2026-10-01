@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: TAPATCH.ClickMeter
+PackageVersion: 1.0.3
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+ProductCode: ClickMeter
+ReleaseDate: '2026-09-30'
+AppsAndFeaturesEntries:
+- DisplayName: ClickMeter
+  Publisher: TAPATCH
+  ProductCode: ClickMeter
+InstallationMetadata:
+  DefaultInstallLocation: '%ProgramFiles%\TAPATCH\ClickMeter'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://tapatch.com/downloads/ClickMeter-Setup-1.0.3.exe
+  InstallerSha256: A416879808ED9168F0988689BEF2BAD6627156F90C6CD64C1BB8B06B006CB6F5
+  ElevationRequirement: elevatesSelf
+ManifestType: installer
+ManifestVersion: 1.12.0
