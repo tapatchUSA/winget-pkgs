@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: TAPATCH.LinkMass
+PackageVersion: 1.0.2
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+ProductCode: LinkMass
+ReleaseDate: '2026-09-30'
+AppsAndFeaturesEntries:
+- DisplayName: LinkMass
+  Publisher: TAPATCH
+  ProductCode: LinkMass
+InstallationMetadata:
+  DefaultInstallLocation: '%ProgramFiles%\TAPATCH\LinkMass'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://tapatch.com/downloads/LinkMass-Setup-1.0.2.exe
+  InstallerSha256: CAD234E48690C41FCA683A0F0AAF79A5FF23EF88BD0AE9C1480E9214E0132113
+  ElevationRequirement: elevatesSelf
+ManifestType: installer
+ManifestVersion: 1.12.0
