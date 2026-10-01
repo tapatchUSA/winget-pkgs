@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: TAPATCH.Autrix
+PackageVersion: 1.0.4
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+ProductCode: Autrix
+ReleaseDate: '2026-09-30'
+AppsAndFeaturesEntries:
+- DisplayName: Autrix
+  Publisher: TAPATCH
+  ProductCode: Autrix
+InstallationMetadata:
+  DefaultInstallLocation: '%ProgramFiles%\TAPATCH\Autrix'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://tapatch.com/downloads/Autrix-Setup-1.0.4.exe
+  InstallerSha256: 1C9E6EA7ED3520C95EBB164586C9FC1081C0B35AFD0332B26BD18491702AF105
+  ElevationRequirement: elevatesSelf
+ManifestType: installer
+ManifestVersion: 1.12.0
