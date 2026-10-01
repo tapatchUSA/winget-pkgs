@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: TAPATCH.NetPulse
+PackageVersion: 1.0.2
+PackageLocale: en-US
+Publisher: TAPATCH
+PublisherUrl: https://tapatch.com/
+PrivacyUrl: https://tapatch.com/privacy/
+Author: TAPATCH
+PackageName: NetPulse
+PackageUrl: https://tapatch.com/tools/netpulse/
+License: Free for personal use; commercial use requires a paid license
+LicenseUrl: https://tapatch.com/terms/
+Copyright: Copyright (c) 2026 TAPATCH
+ShortDescription: Network monitor for Windows - see exactly which app uses your internet, capture packets explained in plain English, and block any app with a one-click firewall.
+Description: |
+  NetPulse shows exactly which program is using your internet, how much, and where it goes — from Windows' own kernel network events, so the numbers per app are exact. Keep history as long as you like, block any app in one click, check your network for hijacking and open doors, and capture packets with a plain-English explanation of each one. Everything is measured and stored on your PC: no account, no cloud, no telemetry.
+
+  Free for personal use; business or commercial use requires a paid license.
+Moniker: tapatch-netpulse
+Tags:
+- network-monitor
+- bandwidth-monitor
+- firewall
+- packet-capture
+- network-security
+- privacy
+- traffic-monitor
+ReleaseNotes: |
+  - Asks you to accept the TAPATCH Terms of Service the first time it opens (the same terms the installer shows), and can't be used until you agree
+  - Nothing is monitored until the terms are accepted, including when NetPulse starts in the tray at login
+ReleaseNotesUrl: https://tapatch.com/tools/netpulse/
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
