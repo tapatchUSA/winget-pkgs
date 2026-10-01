@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: TAPATCH.DownSample
+PackageVersion: 1.0.1
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+ProductCode: DownSample
+ReleaseDate: '2026-09-30'
+AppsAndFeaturesEntries:
+- DisplayName: DownSample
+  Publisher: TAPATCH
+  ProductCode: DownSample
+InstallationMetadata:
+  DefaultInstallLocation: '%ProgramFiles%\TAPATCH\DownSample'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://tapatch.com/downloads/DownSample-Setup-1.0.1.exe
+  InstallerSha256: D51C6DC3EB2278DEA16FC34A3454055B559465E64F51D20058E4833A658C2F8F
+  ElevationRequirement: elevatesSelf
+ManifestType: installer
+ManifestVersion: 1.12.0
