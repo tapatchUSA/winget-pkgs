@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: TAPATCH.ForeverCrypt
-PackageVersion: 1.0.1
+PackageVersion: 1.0.2
 InstallerType: nullsoft
 Scope: machine
 InstallModes:
@@ -10,7 +10,7 @@ InstallModes:
 - silentWithProgress
 UpgradeBehavior: install
 ProductCode: ForeverCrypt
-ReleaseDate: '2026-09-30'
+ReleaseDate: '2026-10-01'
 AppsAndFeaturesEntries:
 - DisplayName: ForeverCrypt
   Publisher: TAPATCH
@@ -19,8 +19,8 @@ InstallationMetadata:
   DefaultInstallLocation: '%ProgramFiles%\TAPATCH\ForeverCrypt'
 Installers:
 - Architecture: x64
-  InstallerUrl: https://tapatch.com/downloads/ForeverCrypt-Setup-1.0.1.exe
-  InstallerSha256: 9A0A6A3843391BE4E3CDC806F06D77DECA885539FEBF2C62EB7A89EACDFF1DB0
+  InstallerUrl: https://tapatch.com/downloads/ForeverCrypt-Setup-1.0.2.exe
+  InstallerSha256: BEFB4A81118A9C427A1F02FC95A767DB16E1F5B0CE97B683B10C148E7D62DED9
   ElevationRequirement: elevatesSelf
 ManifestType: installer
 ManifestVersion: 1.12.0
