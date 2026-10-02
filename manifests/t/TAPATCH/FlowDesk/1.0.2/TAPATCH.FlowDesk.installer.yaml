@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: TAPATCH.FlowDesk
-PackageVersion: 1.0.1
+PackageVersion: 1.0.2
 InstallerType: nullsoft
 Scope: machine
 InstallModes:
@@ -10,7 +10,7 @@ InstallModes:
 - silentWithProgress
 UpgradeBehavior: install
 ProductCode: FlowDesk
-ReleaseDate: '2026-09-30'
+ReleaseDate: '2026-10-01'
 AppsAndFeaturesEntries:
 - DisplayName: FlowDesk
   Publisher: TAPATCH
@@ -19,8 +19,8 @@ InstallationMetadata:
   DefaultInstallLocation: '%ProgramFiles%\TAPATCH\FlowDesk'
 Installers:
 - Architecture: x64
-  InstallerUrl: https://tapatch.com/downloads/FlowDesk-Setup-1.0.1.exe
-  InstallerSha256: 85520C658F85537281A053C75B59A6B6250B3F8E627BCC8ECAC0ED106ABC6528
+  InstallerUrl: https://tapatch.com/downloads/FlowDesk-Setup-1.0.2.exe
+  InstallerSha256: 8A6C6CE4C3AE5798F9E5B59186103498D5664C08BE210DB9FD7F57B8ED388113
   ElevationRequirement: elevatesSelf
 ManifestType: installer
 ManifestVersion: 1.12.0
