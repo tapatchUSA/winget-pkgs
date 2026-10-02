@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: TAPATCH.NetPulse
-PackageVersion: 1.0.2
+PackageVersion: 1.0.3
 InstallerType: nullsoft
 Scope: machine
 InstallModes:
@@ -10,7 +10,7 @@ InstallModes:
 - silentWithProgress
 UpgradeBehavior: install
 ProductCode: NetPulse
-ReleaseDate: '2026-09-30'
+ReleaseDate: '2026-10-01'
 AppsAndFeaturesEntries:
 - DisplayName: NetPulse
   Publisher: TAPATCH
@@ -19,8 +19,8 @@ InstallationMetadata:
   DefaultInstallLocation: '%ProgramFiles%\TAPATCH\NetPulse'
 Installers:
 - Architecture: x64
-  InstallerUrl: https://tapatch.com/downloads/NetPulse-Setup-1.0.2.exe
-  InstallerSha256: 16E6F9A5A537C10137002667630EFC4D8E1367409717C13A5CC89A489B542D35
+  InstallerUrl: https://tapatch.com/downloads/NetPulse-Setup-1.0.3.exe
+  InstallerSha256: 645818CB2901415E1D54014000B56E145B0AAEF34C65871BD26D52841377300D
   ElevationRequirement: elevatesSelf
 ManifestType: installer
 ManifestVersion: 1.12.0
