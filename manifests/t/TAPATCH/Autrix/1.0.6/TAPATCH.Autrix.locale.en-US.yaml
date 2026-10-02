@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: TAPATCH.Autrix
-PackageVersion: 1.0.5
+PackageVersion: 1.0.6
 PackageLocale: en-US
 Publisher: TAPATCH
 PublisherUrl: https://tapatch.com/
@@ -27,10 +27,15 @@ Tags:
 - hotkey
 - gaming
 ReleaseNotes: |
-  - Now in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean
-  - Starts in your Windows language (English if yours isn't one of the 10). The first launch asks which language you want, and you can switch any time inside the app
-  - The installer comes in the same 10 languages
-  - The Terms of Service are shown translated for convenience, with the official English (US) text, the only binding version, right below
+  - Cleaner new look: icon sidebar, sharper text and calmer colors
+  - Start and stop are instant at every click interval. Before, a long interval (like 10 seconds) made the hotkey wait for the next click before it stopped
+  - Shows your clicks per second the moment you start, and for intervals of a second or more a "next click in" countdown with a progress bar
+  - Macros copy camera turns in games exactly. In games that hold the cursor still, like Roblox when you hold right-click and drag, Autrix now records your mouse's own movement and plays it back the same way
+  - The Start / Stop buttons respond to your click right away
+  - Holding the hotkey a little too long no longer switches the clicker straight back off
+  - Recording no longer captures every mouse press and release twice, and older recordings with doubles play back correctly
+  - Clicks land on the exact pixel, Enter replays as the main Enter key, and Windows, Menu, Print Screen and media keys replay correctly
+  - Settings are saved safely, and deleting a profile asks for a second click
 ReleaseNotesUrl: https://tapatch.com/tools/autrix/
 ManifestType: defaultLocale
 ManifestVersion: 1.12.0
